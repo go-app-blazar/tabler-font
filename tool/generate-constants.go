@@ -112,7 +112,7 @@ func main() {
 			builder.WriteString(" icons.\n")
 			builder.WriteString("func ")
 			builder.WriteString(constantGroupName)
-			builder.WriteString("() string {\n")
+			builder.WriteString("() []string {\n")
 			builder.WriteString("\treturn []string{\n")
 			var constantNames []string
 			for _, constantName := range constantGroupMap[constantGroupName] {

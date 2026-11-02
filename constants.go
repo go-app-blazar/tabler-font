@@ -6263,7 +6263,7 @@ const (
 )
 
 // Icon returns all of the available Icon icons.
-func Icon() string {
+func Icon() []string {
 	return []string{
 		IconFilledAccessible,
 		IconFilledAd,
@@ -12526,7 +12526,7 @@ func Icon() string {
 }
 
 // IconFilled returns all of the available IconFilled icons.
-func IconFilled() string {
+func IconFilled() []string {
 	return []string{
 		IconFilledAccessible,
 		IconFilledAd,
@@ -13586,7 +13586,7 @@ func IconFilled() string {
 }
 
 // IconOutline returns all of the available IconOutline icons.
-func IconOutline() string {
+func IconOutline() []string {
 	return []string{
 		IconOutlineAB,
 		IconOutlineAB2,
